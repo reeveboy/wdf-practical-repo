@@ -4,7 +4,7 @@ export default function List ({people}) {
             {people.map(person => {
                 const {id, name, age, image} = person
                 return (
-                    <div key={id} className="flex items-center mb-4">
+                    <div key={id} className="flex items-center mb-4 w-full">
                         <img src={image} height={50} width={50} alt="avatar" className="rounded-[999px]" />
                         <p className="p-1"></p>
                         <div>

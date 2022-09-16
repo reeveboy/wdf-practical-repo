@@ -6,7 +6,8 @@ function App() {
   const [people, setPeople] = useState(data)
   return (
     <div className='h-screen w-full flex items-center justify-center'>
-      <div className='bg-gray-800 p-4 rounded-lg min-w-[400px]'>
+      <div className='bg-gray-800 p-4 rounded-lg min-w-[400px] flex flex-col items-center'>
+        <div className='text-3xl'>Birthday Reminder App</div>
         <div className='text-2xl'>{people.length} birthdays today</div>
         <p className='p-2'></p>
         <List people={people} />
