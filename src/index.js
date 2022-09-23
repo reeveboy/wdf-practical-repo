@@ -4,13 +4,15 @@ import './index.css';
 import App from './Birthday/App';
 import ReviewPage from './Review/ReviewPage';
 import Employees from './Employee/Employees'
+import Calculator from './Calculator/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <ReviewPage /> */}
     {/* <Employees /> */}
+    <Calculator />
   </React.StrictMode>
 );
 
