@@ -11,9 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <ReviewPage /> */}
+    <ReviewPage />
     {/* <Employees /> */}
-    <Calculator />
+    {/* <Calculator /> */}
     {/* <Todo /> */}
   </React.StrictMode>
 );

@@ -12,7 +12,9 @@ function App() {
         {people.map(person => (
           <List person={person} />
         ))}
-        <button className='w-full text-white bg-pink-400 hover:bg-rose-600 px-2 py-1 rounded' onClick={() => setPeople([])}>Clear All</button>
+        {people.length == 0 ? "" : (
+          <button className='w-full text-white bg-pink-400 hover:bg-rose-600 px-2 py-1 rounded' onClick={() => setPeople([])}>Clear All</button>
+        )}
       </div>
     </div>
   );
