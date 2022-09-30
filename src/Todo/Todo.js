@@ -7,6 +7,7 @@ function Notes() {
     
     const handleSubmit = (e) => {
         e.preventDefault()
+        if (!input) return
         setTodos((prev) => {return [...prev, input]})
         setInput("")
     }

@@ -13,8 +13,8 @@ root.render(
     {/* <App /> */}
     {/* <ReviewPage /> */}
     {/* <Employees /> */}
-    {/* <Calculator /> */}
-    <Todo />
+    <Calculator />
+    {/* <Todo /> */}
   </React.StrictMode>
 );
 
