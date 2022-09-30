@@ -5,6 +5,7 @@ import App from './Birthday/App';
 import ReviewPage from './Review/ReviewPage';
 import Employees from './Employee/Employees'
 import Calculator from './Calculator/Calculator';
+import Todo from './Todo/Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +13,8 @@ root.render(
     {/* <App /> */}
     {/* <ReviewPage /> */}
     {/* <Employees /> */}
-    <Calculator />
+    {/* <Calculator /> */}
+    <Todo />
   </React.StrictMode>
 );
 
