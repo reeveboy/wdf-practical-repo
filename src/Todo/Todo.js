@@ -47,12 +47,12 @@ function Notes() {
                         </button>
                     </div>
                 ))}
-                {todos.length != 0 ? (
+                {todos.length != 0 && (
                     <>
                         <p className="p-1"></p>
                         <button onClick={handleClearAll} className='text-white bg-pink-500 hover:bg-rose-600 px-2 py-1 rounded'>Clear All</button>
                     </>
-                ) : ""}
+                )}
             </div>
         </div>
     </div>

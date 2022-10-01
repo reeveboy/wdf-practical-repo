@@ -6,15 +6,17 @@ import ReviewPage from './Review/ReviewPage';
 import Employees from './Employee/Employees'
 import Calculator from './Calculator/Calculator';
 import Todo from './Todo/Todo';
+import Restaurant from './Restaurant/Restaurant';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <ReviewPage />
+    {/* <ReviewPage /> */}
     {/* <Employees /> */}
     {/* <Calculator /> */}
     {/* <Todo /> */}
+    <Restaurant />
   </React.StrictMode>
 );
 
