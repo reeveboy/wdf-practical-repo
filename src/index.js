@@ -7,6 +7,7 @@ import Employees from './Employee/Employees'
 import Calculator from './Calculator/Calculator';
 import Todo from './Todo/Todo';
 import Restaurant from './Restaurant/Restaurant';
+import PA1 from './PA1/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
     {/* <Employees /> */}
     {/* <Calculator /> */}
     {/* <Todo /> */}
-    <Restaurant />
+    {/* <Restaurant /> */}
+    <PA1 />
   </React.StrictMode>
 );
 
